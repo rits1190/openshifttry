@@ -13,13 +13,13 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String welcome() {
-		return "Hello Ritika";
+		return "Hello RitikaUserTry";
 	}
 	
 	@GetMapping("/{input}")
 	public String functry(@PathVariable String input)
 	{
-		return "Hi "+input+ " try is success";
+		return "Hi "+input+ " It is success";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
